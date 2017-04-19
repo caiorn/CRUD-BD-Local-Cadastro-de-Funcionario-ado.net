@@ -1,0 +1,69 @@
+CREATE TABLE Departamento(
+   Id_D            INT CONSTRAINT pk_Id_Departamento PRIMARY KEY IDENTITY,
+   Nome            NVARCHAR(30) UNIQUE
+)
+GO
+CREATE TABLE Funcionario (
+   Id_F            INT CONSTRAINT pk_Id_Funcionario PRIMARY KEY IDENTITY,
+   Nome            NVARCHAR(50) NOT NULL,
+   CPF             NVARCHAR(11),
+   DataNascimento  DATETIME,
+   Sexo            NCHAR(1),
+   Celular         NCHAR(11),                   
+   Email           NVARCHAR(50),
+   Foto            NVARCHAR(25),
+   DataAdmissao    DATETIME,
+   Id_Departamento INT CONSTRAINT fk_Id_Departamento REFERENCES Departamento(Id_D) ON DELETE CASCADE ON UPDATE CASCADE,
+   Salario         MONEY,
+   Ativo           BIT
+)
+GO
+
+INSERT INTO Departamento (Nome) VALUES ('Financeiro')
+GO
+INSERT INTO Departamento (Nome) VALUES ('Jurídico')
+GO
+INSERT INTO Departamento (Nome) VALUES ('Marketing ')
+GO
+INSERT INTO Departamento (Nome) VALUES('Comercial')
+GO
+INSERT INTO Departamento (Nome) VALUES('Compras')
+GO
+INSERT INTO Departamento (Nome) VALUES('Administrativo')
+GO
+INSERT INTO Departamento (Nome) VALUES('Operacional')
+GO
+INSERT INTO Departamento (Nome) VALUES('Tecnologia da Informação')
+GO
+INSERT INTO Departamento (Nome) VALUES('Gerencia')
+GO
+INSERT INTO Departamento (Nome) VALUES('Diretoria')
+GO
+INSERT INTO Departamento (Nome) VALUES('Presidência')
+GO
+
+INSERT INTO Funcionario (Nome, CPF, DataNascimento, Sexo, Celular, Foto, Email, DataAdmissao, Id_Departamento, Salario,Ativo) VALUES 
+('Test', '44260443836', '1995-05-25', 'M', '11954573510', null, 'exemple@gmail.com', '2017-03-22', 1, 1200, 1)
+GO
+INSERT INTO Funcionario (Nome, CPF, DataNascimento, Sexo, Celular, Foto, Email, DataAdmissao, Id_Departamento, Salario,Ativo) VALUES 
+('Marta', '1254157587', '1998-05-25', 'F', '11858589745', null, 'exemple2@gmail.com', '2017-02-22', 2, 1000, 1)
+
+/*
+--Apaga todos departamentos que nenhum funcionario esta usando
+DELETE FROM Departamento WHERE Id_D NOT IN (SELECT Id_D from Funcionario WHERE Id_D = Departamento.Id_D) 
+
+--Retorna o prox Id que ira cadastrar
+SELECT AUTOINC_NEXT 
+FROM INFORMATION_SCHEMA.COLUMNS 
+WHERE TABLE_NAME='Departamento' 
+AND COLUMN_NAME='Id_D'
+
+--Query Filtro, Teste para retornar todos
+SELECT * FROM Funcionario WHERE Nome LIKE '%%' 
+AND (Ativo = 'true' OR Ativo = 'false') 
+AND (Sexo = 'F' OR Sexo = 'M') 
+AND (DataAdmissao IS NULL OR DataAdmissao >= '1753-01-01' AND DataAdmissao <= '9998-12-31') 
+AND (Salario IS NULL OR Salario >= 0 AND Salario <= 999999)
+AND (Id_Departamento IS NULL OR Id_Departamento IN (SELECT Id_D FROM Departamento WHERE Nome LIKE '%%'))
+ORDER BY Id_F
+*/

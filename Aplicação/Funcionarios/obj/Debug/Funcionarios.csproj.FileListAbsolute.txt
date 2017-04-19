@@ -1,0 +1,33 @@
+C:\Users\CAIO\Desktop\CRUD SQL CE 4.0\Funcionarios\Funcionarios\bin\Debug\Funcionarios.exe.config
+C:\Users\CAIO\Desktop\CRUD SQL CE 4.0\Funcionarios\Funcionarios\bin\Debug\Funcionarios.exe
+C:\Users\CAIO\Desktop\CRUD SQL CE 4.0\Funcionarios\Funcionarios\bin\Debug\Funcionarios.pdb
+C:\Users\CAIO\Desktop\CRUD SQL CE 4.0\Funcionarios\Funcionarios\obj\Debug\Funcionarios.csprojResolveAssemblyReference.cache
+C:\Users\CAIO\Desktop\CRUD SQL CE 4.0\Funcionarios\Funcionarios\obj\Debug\Funcionarios.frmDepartamento.resources
+C:\Users\CAIO\Desktop\CRUD SQL CE 4.0\Funcionarios\Funcionarios\obj\Debug\Funcionarios.frmFuncionario.resources
+C:\Users\CAIO\Desktop\CRUD SQL CE 4.0\Funcionarios\Funcionarios\obj\Debug\Funcionarios.frmMain.resources
+C:\Users\CAIO\Desktop\CRUD SQL CE 4.0\Funcionarios\Funcionarios\obj\Debug\Funcionarios.Properties.Resources.resources
+C:\Users\CAIO\Desktop\CRUD SQL CE 4.0\Funcionarios\Funcionarios\obj\Debug\Funcionarios.csproj.GenerateResource.Cache
+C:\Users\CAIO\Desktop\CRUD SQL CE 4.0\Funcionarios\Funcionarios\obj\Debug\Funcionarios.exe
+C:\Users\CAIO\Desktop\CRUD SQL CE 4.0\Funcionarios\Funcionarios\obj\Debug\Funcionarios.pdb
+C:\Users\CAIO\Desktop\CRUD SQL CE 4.0\CRUD SQL CE 4.0\Aplicação\Funcionarios\bin\Debug\Funcionarios.exe.config
+C:\Users\CAIO\Desktop\CRUD SQL CE 4.0\CRUD SQL CE 4.0\Aplicação\Funcionarios\obj\Debug\Funcionarios.exe
+C:\Users\CAIO\Desktop\CRUD SQL CE 4.0\CRUD SQL CE 4.0\Aplicação\Funcionarios\obj\Debug\Funcionarios.pdb
+C:\Users\CAIO\Desktop\CRUD SQL CE 4.0\CRUD SQL CE 4.0\Aplicação\Funcionarios\bin\Debug\Funcionarios.exe
+C:\Users\CAIO\Desktop\CRUD SQL CE 4.0\CRUD SQL CE 4.0\Aplicação\Funcionarios\bin\Debug\Funcionarios.pdb
+C:\Users\CAIO\Desktop\CRUD SQL CE 4.0\CRUD SQL CE 4.0\Aplicação\Funcionarios\obj\Debug\Funcionarios.csprojResolveAssemblyReference.cache
+C:\Users\CAIO\Desktop\CRUD SQL CE 4.0\CRUD SQL CE 4.0\Aplicação\Funcionarios\obj\Debug\Funcionarios.frmDepartamento.resources
+C:\Users\CAIO\Desktop\CRUD SQL CE 4.0\CRUD SQL CE 4.0\Aplicação\Funcionarios\obj\Debug\Funcionarios.frmFuncionario.resources
+C:\Users\CAIO\Desktop\CRUD SQL CE 4.0\CRUD SQL CE 4.0\Aplicação\Funcionarios\obj\Debug\Funcionarios.frmMain.resources
+C:\Users\CAIO\Desktop\CRUD SQL CE 4.0\CRUD SQL CE 4.0\Aplicação\Funcionarios\obj\Debug\Funcionarios.Properties.Resources.resources
+C:\Users\CAIO\Desktop\CRUD SQL CE 4.0\CRUD SQL CE 4.0\Aplicação\Funcionarios\obj\Debug\Funcionarios.csproj.GenerateResource.Cache
+C:\Users\CAIO\Desktop\CRUD SQL CE 4.0\Aplicação\Funcionarios\bin\Debug\Funcionarios.exe.config
+C:\Users\CAIO\Desktop\CRUD SQL CE 4.0\Aplicação\Funcionarios\obj\Debug\Funcionarios.exe
+C:\Users\CAIO\Desktop\CRUD SQL CE 4.0\Aplicação\Funcionarios\obj\Debug\Funcionarios.pdb
+C:\Users\CAIO\Desktop\CRUD SQL CE 4.0\Aplicação\Funcionarios\bin\Debug\Funcionarios.exe
+C:\Users\CAIO\Desktop\CRUD SQL CE 4.0\Aplicação\Funcionarios\bin\Debug\Funcionarios.pdb
+C:\Users\CAIO\Desktop\CRUD SQL CE 4.0\Aplicação\Funcionarios\obj\Debug\Funcionarios.csprojResolveAssemblyReference.cache
+C:\Users\CAIO\Desktop\CRUD SQL CE 4.0\Aplicação\Funcionarios\obj\Debug\Funcionarios.frmDepartamento.resources
+C:\Users\CAIO\Desktop\CRUD SQL CE 4.0\Aplicação\Funcionarios\obj\Debug\Funcionarios.frmFuncionario.resources
+C:\Users\CAIO\Desktop\CRUD SQL CE 4.0\Aplicação\Funcionarios\obj\Debug\Funcionarios.frmMain.resources
+C:\Users\CAIO\Desktop\CRUD SQL CE 4.0\Aplicação\Funcionarios\obj\Debug\Funcionarios.Properties.Resources.resources
+C:\Users\CAIO\Desktop\CRUD SQL CE 4.0\Aplicação\Funcionarios\obj\Debug\Funcionarios.csproj.GenerateResource.Cache

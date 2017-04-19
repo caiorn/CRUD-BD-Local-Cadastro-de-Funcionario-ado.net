@@ -1,0 +1,20 @@
+CREATE TABLE Departamento(
+   Id_D            INT CONSTRAINT pk_Id_Departamento PRIMARY KEY IDENTITY,
+   Nome            NVARCHAR(30) UNIQUE
+)
+
+
+ CREATE TABLE Funcionario (
+   Id_F            INT CONSTRAINT pk_Id_Funcionario PRIMARY KEY IDENTITY,
+   Nome            NVARCHAR(50) NOT NULL,
+   CPF             NVARCHAR(11),
+   DataNascimento  DATETIME,
+   Sexo            NCHAR(1),
+   Celular         NCHAR(11),                   
+   Email           NVARCHAR(50),
+   Foto            NVARCHAR(25),
+   DataAdmissao    DATETIME,
+   Id_Departamento INT CONSTRAINT fk_Id_Departamento REFERENCES Departamento(Id_D) ON DELETE CASCADE ON UPDATE CASCADE,
+   Salario         MONEY,
+   Ativo           BIT
+)
